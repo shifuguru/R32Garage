@@ -1,4 +1,4 @@
-# R32Garage
+﻿# R32Garage
 
 Luxury automotive landing page built with Vite, React, TypeScript, and Tailwind CSS.
 
@@ -18,7 +18,7 @@ npm run build
 ## Deployment (GitHub Pages)
 - Pages URL: `https://<your-github-username>.github.io/R32Garage/`
 - Vite `base` is set to `/R32Garage/` for project pages.
-- In GitHub repo settings: **Pages ? Source = GitHub Actions**.
+- In GitHub repo settings: **Pages → Source = GitHub Actions**.
 - Workflow: `.github/workflows/deploy.yml` builds on pushes to `main`/`master`, uploads `dist`, and deploys via `actions/deploy-pages`.
 
 ## Notes
